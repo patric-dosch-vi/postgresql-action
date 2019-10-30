@@ -5,7 +5,7 @@ docker_run="$docker_run -e POSTGRES_DB=$INPUT_POSTGRESQL_DB"
 docker_run="$docker_run -e POSTGRES_USER=$INPUT_POSTGRESQL_USER"
 docker_run="$docker_run -e POSTGRES_PASSWORD=$INPUT_POSTGRESQL_PASSWORD"
 
-if [ ! -z "$INPUT_POSTGRESQL_VOLUME" ]
+if [ ! -z "$INPUT_POSTGRESQL_INIT_SCRIPTS" ]
 then
   PWD=`pwd`
   docker_run="$docker_run -v $PWD/$INPUT_POSTGRESQL_INIT_SCRIPTS:/docker-entrypoint-initdb.d"
