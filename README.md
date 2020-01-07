@@ -2,6 +2,8 @@
 
 This [GitHub Action](https://github.com/features/actions) sets up a PostgreSQL database.
 
+**Note**: this is a fork from [here](https://github.com/Harmon758/postgresql-action) since the maintainer of that repository seems to be inactive.
+
 # Usage
 
 See [action.yml](action.yml)
