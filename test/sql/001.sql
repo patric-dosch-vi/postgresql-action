@@ -7,3 +7,4 @@ CREATE TABLE Persons (
 );
 
 INSERT INTO Persons VALUES (1, 'Last', 'First', 'TestAddress', 'TestCity');
+INSERT INTO Persons VALUES (2, 'Last2', 'First2', 'TestAddress', 'TestCity');
