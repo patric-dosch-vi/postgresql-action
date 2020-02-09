@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    - uses: m4nu56/postgresql-action@v1
+    - uses: ./
       with:
         postgresql password: test
         postgresql init scripts: test/sql
