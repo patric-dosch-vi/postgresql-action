@@ -1,4 +1,4 @@
-name: 'Setup PostgreSQL'
+name: 'Setup PostgreSQL With Init Scripts'
 description: 'Setup a PostgreSQL database'
 author: 'Harmon'
 branding:
