@@ -1,4 +1,4 @@
-# PostgreSQL GitHub Action
+# PostgreSQL GitHub Action change
 
 This [GitHub Action](https://github.com/features/actions) sets up a PostgreSQL database.
 
